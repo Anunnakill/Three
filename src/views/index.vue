@@ -22,10 +22,10 @@ const animate = () => {
   renderer.render(scene, camera);
 };
 
-const mousemove = (e: any) => {
+const mousemove = (evt: any) => {
   let mouse = new Vector2();
-  let x = (e.clientX / window.innerWidth) * 2 - 1;
-  let y = -(-(e.clientY / window.innerHeight) * 2 + 1);
+  let x = (evt.x / window.innerWidth) * 2 - 1;
+  let y = -(-(evt.y / window.innerHeight) * 2 + 1);
 
   mouse.x = x;
   mouse.y = y;
