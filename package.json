@@ -24,6 +24,7 @@
     "process": "^0.11.10",
     "stream-browserify": "^3.0.0",
     "swiper": "^7.0.1",
+    "three": "^0.138.2",
     "typed.js": "^2.0.12",
     "util": "^0.12.4",
     "vfonts": "^0.1.0",
@@ -35,6 +36,7 @@
   "devDependencies": {
     "@rollup/plugin-inject": "^4.0.3",
     "@types/node": "^16.6.2",
+    "@types/three": "^0.138.0",
     "@vitejs/plugin-vue": "^2.0.0",
     "@zougt/vite-plugin-theme-preprocessor": "^1.4.4",
     "autoprefixer": "^10.3.4",
