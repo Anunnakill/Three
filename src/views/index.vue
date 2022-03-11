@@ -63,9 +63,9 @@ const init = () => {
       if (isMesh) geometry.center();
     });
 
-    camera.lookAt(mesh.position);
+    mesh.scale.set(0.5, 0.5, 0.5);
 
-    mesh.scale.set(1, 1, 1);
+    camera.lookAt(mesh.position);
 
     scene.add(mesh);
 
